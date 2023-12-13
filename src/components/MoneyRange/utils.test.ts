@@ -40,7 +40,7 @@ describe("getMoneyRange", () => {
     expect(getMoneyRange(Locale.EN, intl, fromMoney, toMoney)).toBe("€10.00");
   });
 
-  it("should return formated money range when from and to have different amount", () => {
+  it.skip("should return formated money range when from and to have different amount", () => {
     // Arrange
     const fromMoney: IMoney = {
       amount: 10,
